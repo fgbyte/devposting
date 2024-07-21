@@ -1,4 +1,8 @@
-const AppLogo = () => (
-	<img className="h-10 w-10" src="/favicon.png" alt="logo" />
+type Props = {
+	className: string;
+};
+
+const AppLogo: React.FC<Props> = ({ className }) => (
+	<img className={className} src="/favicon.png" alt="logo" />
 );
 export default AppLogo;
