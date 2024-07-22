@@ -25,11 +25,11 @@ const Login = () => {
 						Ours posts and comments are powered by Markdown
 					</p>
 				</div>
-				<Card className="relative group overflow-hidden rounded-lg md:w-1/2">
+				<Card className="relative group overflow-hidden rounded-lg w-fit">
 					<CardContent className="p-1 bg-gradient-to-r from-green-300 via-blue-500 to-green-400 bg-300% animate-gradient">
 						<Button onClick={() => console.log("click")}>
 							<GitHubLogoIcon className="mr-2 h-5 w-5" />
-							GitHub
+							Continue with GitHub
 						</Button>
 					</CardContent>
 				</Card>

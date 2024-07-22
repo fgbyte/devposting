@@ -9,7 +9,7 @@ const Home = () => {
 	const [isNavOpen, setNavOpen] = useState(false);
 
 	return (
-		<section className="w-full bg-white min-h-screen flex flex-col">
+		<section className="w-full bg-white min-h-screen flex flex-col items-center">
 			<nav className="sticky top-0 z-10 flex w-full items-center justify-between p-4 border-b border-zinc-200 flex-wrap md:flex-nowrap">
 				{" "}
 				<Link className="flex items-center space-x-2 px-4" to="/">
