@@ -20,7 +20,7 @@ function WritePost({ sessionUserId, postId }: Props) {
 	const [title, setTitle] = useState("");
 	const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-	//function post the title button
+	//function for the button
 	const postTitle = () => {
 		console.log("post title to server");
 	};
