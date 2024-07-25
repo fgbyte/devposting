@@ -17,5 +17,12 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	},
-	"cSpell.words": ["animatedgradient", "Devposting", "lucide", "Supabase"]
+	"cSpell.words": [
+		"animatedgradient",
+		"Devposting",
+		"gitposts",
+		"lucide",
+		"Supabase",
+		"viewposts"
+	]
 }
